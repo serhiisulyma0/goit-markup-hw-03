@@ -78,7 +78,7 @@ body {
   color: #212121;
 }
 
-.activ:hover {
+.activ {
   color: var(--color-hover);
 }
 
