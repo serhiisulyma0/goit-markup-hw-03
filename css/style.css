@@ -77,7 +77,8 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.activ {
+
+.activ:hover {
   color: var(--color-hover);
 }
 
