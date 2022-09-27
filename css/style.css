@@ -32,7 +32,6 @@ ol {
 }
 
 body {
-  width: 1600px;
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
@@ -41,6 +40,13 @@ body {
 .top-header {
   height: 80px;
   border-bottom: 1px solid #ececec;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
 }
 .top-nav {
   display: flex;
@@ -53,7 +59,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  margin: 24px 93px 24px 215px;
+  padding: 24px 0;
+  display: block;
+  margin-right: 90px;
 }
 
 .color-logo {
@@ -62,8 +70,6 @@ body {
 
 .menu {
   display: flex;
-  margin: 32px 331px 32px 0;
-  padding: 0;
 }
 
 .menu-item {
@@ -76,6 +82,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  padding: 32px 0;
+  display: block;
 }
 
 .activ:hover {
@@ -84,8 +92,7 @@ body {
 
 .contacts {
   display: flex;
-  margin: 32px 0 32px 0;
-  padding: 0;
+  margin-left: auto;
 }
 
 .mail {
@@ -95,6 +102,8 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
   margin-right: 50px;
+  padding: 32px 0;
+  display: block;
 }
 .mail:hover,
 .mail:focus {
@@ -107,6 +116,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  padding: 32px 0;
+  display: block;
 }
 .tel:hover,
 .tel:focus {
@@ -116,9 +127,11 @@ body {
 /*MAIN*/
 .hero {
   background: #2f303a;
-  padding: 200px 452px;
+  padding: 200px 0;
 }
 .main-h1 {
+  max-width: 650px;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -127,6 +140,7 @@ body {
   text-transform: uppercase;
   color: var(--color2);
   margin-bottom: 30px;
+  
 }
 .hero-button {
   font-weight: 700;
@@ -149,7 +163,7 @@ body {
 
 .description-list {
   display: flex;
-  margin: 94px 215px;
+  margin: 94px 0;
 }
 .description-li {
   margin-right: 30px;
@@ -173,6 +187,12 @@ body {
 }
 
 /*INFO IMAGES*/
+.container-our-work{
+    width: 1200px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+}
 .info-img {
   margin-bottom: 94px;
 }
@@ -188,7 +208,7 @@ body {
 
 .img-our-job {
   display: flex;
-  padding-left: 215px;
+  padding: 0 auto;
 }
 .img-li {
   margin-right: 30px;
@@ -197,7 +217,13 @@ body {
 /*OUR TEAM*/
 .our-team-section {
   background: #f5f4fa;
-  padding: 94px 215px;
+  padding: 94px 0;
+}
+.container-our-team{
+    width: 1200px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
 }
 
 .our-team-title {
@@ -219,13 +245,15 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.our-team-title-position{
+  padding: 30px 0;
+}
 .name-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -236,13 +264,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-bottom: 30px;
 }
 
 /*MAIN PORTFOLIO*/
+.section{
+  padding: 94px 0;
+}
 .portfolio-btn-list {
   display: flex;
-  margin: 94px auto 34px 494px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .portfolio-btn-li {
   margin-right: 8px;
@@ -258,6 +289,7 @@ body {
   padding: 6px 22px;
   background: #f5f4fa;
   border-radius: 4px;
+  border: 0;
 }
 
 .portfolio-button-hero:hover,
@@ -268,22 +300,23 @@ body {
 .portfolio-img-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto 64px 215px;
 }
 .portfolio-img-li {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-right: auto;
+  margin-bottom: 15px;
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-
+.hero-title-position{
+  padding: 20px 24px;
+}
 .hero-title-h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  margin: 20px 24px 2px 24px;
+  margin-bottom: 4px;
 }
 
 .hero-paragraf-p {
@@ -292,13 +325,19 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-  margin: 4px 24px 20px 24px;
 }
 
 /*FOOTER*/
 .footer {
   background: #2f303a;
-  padding: 60px 215px;
+  padding: 60px 0;
+}
+.container-footer{
+    width: 1200px;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      display: block;
 }
 .logo-footer {
   font-family: var(--logo-font-fam);
@@ -309,6 +348,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--color2);
 }
+.contacts-footer{
+  margin-top: 20px;
+}
+.contacts-list-footer{
+  margin-bottom: 9px;
+}
 .address-footer {
   font-style: normal;
   font-weight: 400;
@@ -317,9 +362,17 @@ body {
   letter-spacing: 0.03em;
   color: var(--color2);
 }
-.contacts-footer {
-  margin-top: 20px;
+.mail-footer{
+  font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
-.contacts-list-footer {
-  margin-bottom: 9px;
+.tel-footer{
+  font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
