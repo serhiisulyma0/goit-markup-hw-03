@@ -156,6 +156,7 @@ body {
   color: var(--color2);
   padding: 10px 32px;
   margin: auto;
+  border: 0;
 }
 .hero-button:hover {
   background: #188ce8;
